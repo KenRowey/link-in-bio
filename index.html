@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+
   <title>Ken Rowey's Links</title>
 
   <style>
-    * {
+    /no border lines anymore * {
       border: 1px red dashed;
     }
 
@@ -20,8 +23,9 @@
       min-height: 100%;
       padding-top: 40px;
       padding-bottom: 40px;
-      background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+      background: linear-gradient(165deg, #003f5b, #005665, #006c64, #008056, #558f3d, #919805, #ca9a00, #ff9913); /* made at https://learnui.design/tools/gradient-generator.html */      
       color: rgba(255, 255, 255, 1.0);
+      font-family: "Tahoma";
     }
 
     .avatar-image {
@@ -40,10 +44,16 @@
 
     a {
       color: rgba(255, 255, 255, 1.0);
+      text-decoration: none;
     }
 
     .item {
-      background-color: rgba(149, 123, 173, 0.5);
+      background-color: rgba(165, 173, 123, 0.5);
+      border-radius: 1000px;
+      padding: 5px;  
+      padding-right: 48px;
+      box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+
     }
 
     .main-container {
@@ -59,9 +69,13 @@
     .name-row {
       margin-bottom: 30px;
       text-align: center;
+      font-family: "Garamond";
+      font-size: 24px;
+      font-weight: 900;
     }
 
     .social-icons-row {
+      
       margin-bottom: 30px;
       display: flex;
       justify-content: space-around;
@@ -93,15 +107,17 @@
     
         <div class="social-icons-row">
           <a href="https://www.linkedin.com/in/KennethRowey" target="_blank">
-            LinkedIn
+            <i class="fa-brands fa-linkedin"></i>
+            
           </a>
           
           <a href="https://www.instagram.com/stories/kenrowey/" target="_blank">
-            Instagram
+            <i class="fa-brands fa-instagram"></i>
+            
           </a>
 
           <a href="https://x.com/KenRowey" target="_blank">
-            Twitter / X
+            <i class="fa-brands fa-x-twitter"></i>
           </a>
         </div>
     
