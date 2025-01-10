@@ -1,26 +1,33 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="UTF-8">
-  
-  <title>Ken's links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ken Rowey's Links</title>
 
   <style>
     * {
-      border: 1px blueviolet dashed;
+      border: 1px red dashed;
+    }
+
+    html {
+      min-height: 100%;
     }
 
     body {
+      min-height: 100%;
       padding-top: 40px;
       padding-bottom: 40px;
-      background: linear-gradient(255deg, #003f5b, #005662, #006c59, #007e37, #4f8c00, #8f9600, #c99a00, #ff9913); /* made at https://learnui.design/tools/gradient-generator.html */
+      background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+      color: rgba(255, 255, 255, 1.0);
     }
 
     .avatar-image {
       width: 128px;
       height: 128px;
+      object-fit: cover;
       border-radius: 128px;
     }
 
@@ -30,6 +37,47 @@
       border-radius: 48px;
       object-fit: cover;
     }
+
+    a {
+      color: rgba(255, 255, 255, 1.0);
+    }
+
+    .item {
+      background-color: rgba(149, 123, 173, 0.5);
+    }
+
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .item {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
+
   </style>
 </head>
 
@@ -37,23 +85,21 @@
       <div class="main-container">
         <div class="image-row">
           <img src="pics/avatar.png" alt="Ken's Avatar" class="avatar-image">
-          
-          </style>
         </div>
     
         <div class="name-row">
           Ken Rowey
         </div>
     
-            
+        <div class="social-icons-row">
           <a href="https://www.linkedin.com/in/KennethRowey" target="_blank">
             LinkedIn
           </a>
-    
+          
           <a href="https://www.instagram.com/stories/kenrowey/" target="_blank">
             Instagram
           </a>
-    
+
           <a href="https://x.com/KenRowey" target="_blank">
             Twitter / X
           </a>
